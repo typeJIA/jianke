@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../common.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/login.js"></script>
+    <title>健客网-登录</title>
+</head>
+<body>
+    <div id="login">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="main-content clearfix">
+                <a href="#" class="login fl">
+                    <img src="../image/logo_jk.png" alt="">
+                </a>
+                <div class="register-link fr">
+                    <span>还没有账号？</span>
+                    <a href="reg.html">立即注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="article">
+            <div class="main-content clearfix">
+                <a href="#" class="fl">
+                    <img src="../image/app.png" alt="">
+                </a>
+                <!-- 注册表单 -->
+                <div class="login-form fr">
+                    <div class="tab-login">
+                        <div class="tab-login-item active">手机号快捷登录</div>
+                        <div class="tab-login-item">账号密码登录</div>
+                    </div>
+                    <div class="box">
+                        <div class="login-main-content" style="display: block">
+                            <div class="SmsValid">
+                                <div class="form-item phone">
+                                    <div class="content">
+                                        <input type="text" class="tel" placeholder="请输入您的手机号">
+                                        <span class="tishi"></span>
+                                        <span class="form-group__message telts">手机号码不能为空</span>
+                                    </div>
+                                </div>
+                                <div class="form-item image-code">
+                                    <div class="content">
+                                        <input type="text" class="yzm" placeholder="请输入验证码">
+                                        <div class="image-code-box">
+                                            <span class="txyzm">1234</span>
+                                        </div>
+                                        <span class="ztts"></span>
+                                        <span class="form-group__message yzmts">请输入图形验证码</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <input type="button" class="dl" value="立即登录">
+                            </div>
+                            <div class="agree">
+                                <input type="checkbox" id="checkbox" checked ="checked">
+                                <label for="checkbox">我已阅读并同意</label>
+                                <a href="#">《健客网用户使用条款》</a>
+                            </div>
+                            <dl class="other-login">
+                                <dt class="other-login-title">你也可以使用以下账号登录</dt>
+                                <dd>
+                                    <a href="#" class="qq"></a>
+                                    <a href="#" class="xinlang"></a>
+                                </dd>
+                            </dl>
+                            <p class="service">如有账号问题，请咨询客服
+                                <a href="#">400 6666 800</a>
+                            </p>
+                        </div>
+                        <div class="login-main-content" style="display: none">
+                            <div class="login-pwd">
+                                <div class="form-item phone">
+                                    <div class="content">
+                                        <input type="text" placeholder="请输入用户名">
+                                        <span class="form-group__message">用户名不能为空</span>
+                                    </div>
+                                </div>
+                                <div class="form-item phone">
+                                    <div class="content">
+                                        <input type="password" placeholder="请输入密码">
+                                        <span class="form-group__message">密码不能为空</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="forget-pwd-link">忘记密码？</a>
+                            </div>
+                            <div class="form-items">
+                                <input type="button" value="立即登录">
+                            </div>
+                            <div class="agree">
+                                <input type="checkbox" id="checkbox" checked ="checked">
+                                <label for="checkbox">我已阅读并同意</label>
+                                <a href="#">《健客网用户使用条款》</a>
+                            </div>
+                            <dl class="other-login">
+                                <dt class="other-login-title">你也可以使用以下账号登录</dt>
+                                <dd>
+                                    <a href="#" class="qq"></a>
+                                    <a href="#" class="xinlang"></a>
+                                </dd>
+                            </dl>
+                            <p class="service">如有账号问题，请咨询客服
+                                <a href="#">400 6666 800</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+            <p>健客网－国家药监局认证的合法网上药店，致力于打造优质、低价、便捷的网上药店和最值得信赖的健康服务平台</p>
+            <p>版权所有 Copyright©2006-2014 www.jianke.com All rights reserved</p>
+            <p>
+                <a href="#">互联网药品交易服务资格证书</a>
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <a href="#">企业营业执照</a>
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <a href="#">互联网药品信息服务资格证书</a>
+            </p>
+        </div>
+        <!-- 右侧栏固定 --> 
+        <div class="zx">
+            <img src="../image/online_left.gif" alt="">
+            <span class="gb"></span>
+            <a href="#" class="djzx"></a>
+        </div>
+    </div>
+</body>
+</html>

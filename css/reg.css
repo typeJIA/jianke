@@ -1,0 +1,188 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#reg .app{
+    width: 100%;
+    height: 950px;
+    background: url(../image/register-bg.jpg)no-repeat top;
+    margin: 0 auto;
+}
+#reg .header{
+    width: 100%;
+}
+#reg .header .main-content{
+    display: block;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 20px 20px;
+}
+#reg .header .main-content>a{
+    width: 440px;
+    float: left;
+}
+#reg .header .main-content>a img{
+    width: 100%;
+    display: block;
+    border: none;
+}
+#reg .header .register-link{
+    font-size: 14px;
+    color: #fff;
+}
+#reg .header .register-link>a{
+    display: inline-block;
+    width: 50px;
+    height: 22px;
+    line-height: 22px;
+    background: #fff;
+    color: #32a1e8;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+#reg .article .main-content{
+    width: 980px;
+    height: 620px;
+    margin: 0 auto;
+    background: #fff;
+}
+#reg .article .main-content .nav{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #d5d5d5;
+    font-size: 0;
+}
+#reg .article .main-content .nav .nav-item{
+    width: 100%;
+    color: #32a1e8;
+    border-bottom: 1px solid #32a1e8;
+    font-size: 18px;
+}
+#reg .article .register-form{
+    margin-top: 45px;
+}
+#reg .article .register-form .form-item{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+#reg .article .form-item .label{
+    display: inline-block;
+    width: 60px;
+    line-height: 45px;
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+    vertical-align: top;
+}
+#reg .article .form-item .content{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+}
+#reg .article .form-item .content input{
+    width: 350px;
+    height: 43px;
+    border: 1px solid #ddd;
+    text-indent: 12px;
+}
+#reg .article .form-item .content .image-code-box{
+    display: inline-block;
+    height: 42px;
+    font-size: 12px;
+    vertical-align: top;
+}
+#reg .article .image-code-box span{
+    display: inline-block;
+    width: 125px;
+    height: 45px;
+    background: #666;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+#reg .article .image-code-box a{
+    display: inline-block;
+    height: 45px;
+    line-height: 22px;
+    color: #008fd2;
+    vertical-align: top;
+}
+#reg .article .image-code .content input{
+    width: 190px;
+    font-size: 12px;
+}
+#reg .article .form-item .content .button{
+    display: inline-block;
+    width: 350px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    background: #32a1e8;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#reg .article .agree input{
+    width: 13px;
+    height: 13px;
+    overflow: visible;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#reg .article .agree label{
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#reg .article .agree a{
+    color: #32a1e8;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.zx{
+    width: 106px;
+    height: 170px;
+    position: fixed;
+    top: 87px;
+    right: 0;
+    z-index: 999;
+}
+.zx img{
+    width: 100%;
+    height: 100%;
+}
+.zx .gb{
+    width: 15px;
+    height: 15px;
+    background: #ebebeb;
+    cursor: pointer;
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.zx .djzx{
+    width: 88px;
+    height: 28px;
+    background: #ebebeb;
+    opacity: .1;
+    position: absolute;
+    bottom: 7px;
+    left: 9px;
+}
